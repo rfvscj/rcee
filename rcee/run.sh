@@ -1,0 +1,12 @@
+python run_rcee.py \
+--lang zh \
+--model_path /public_storage/plms/macbert \
+--data_path_train ../data/c3/formatted/train.json \
+--data_path_dev ../data/c3/formatted/dev.json \
+--train_batch_size 32 \
+--lr 3e-5 \
+--epoch_per_episode 2 \
+--episodes 3 \
+--alpha 0.2 \
+--beta 0.25 \
+--seed 42
